@@ -1,33 +1,27 @@
-✏️Git相关技术讲解
+| Git相关技术讲解
 
-#### 配置：
-
+# 配置：
 `git config [<options>]`
 
-- 配置文件位置
-
+配置文件位置
 - `默认`：当前仓库
 - `--global`：用户所有仓库（全局变量）
 
-- 行为
-
+行为
 - `--list`：查看配置列表
 - --add：添加参数
 - --unset：移除参数
 - --replace-all：替换参数
 
-- 用户身份
-
+用户身份
 - user.name
 - user.email
 
-- 远程仓库
-
+远程仓库
 - remote.origin.url
 - remote.origin.fetch
 
-- 代理
-
+代理
 - http.proxy
 
 **分支**branch
